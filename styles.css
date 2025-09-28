@@ -44,6 +44,19 @@ body {
     color: #e5e7eb
 }
 
+/* Make links the same as body text */
+.header-links a {
+    text-decoration: none;
+    color: inherit; 
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.header-links a:hover {
+    font-weight: bold;
+}
+
 .hero {
     padding: 50px 150px;
     display: flex;
@@ -52,7 +65,7 @@ body {
 }
 
 .text-block {
-    /* width: 600px; */
+    width: 600px;
     display: flex;
     flex-direction: column;
 }
@@ -134,4 +147,49 @@ body {
 
 .quotes h3 {
     align-self: flex-end;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 150px;
+}
+
+.action-container {
+    flex: 1;
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.action h4 {
+    color: #F9FAF8;
+    font-size: 32px;
+    font-weight: 700;    
+}
+
+.action p {
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.action-button .sign-up {
+    border: 2px solid #F9FAF8;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 500;
 }
